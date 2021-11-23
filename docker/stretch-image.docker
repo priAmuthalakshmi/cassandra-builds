@@ -4,7 +4,7 @@ ENV DEB_DIST_DIR=/dist
 ENV BUILD_HOME=/home/build
 ENV CASSANDRA_DIR=$BUILD_HOME/cassandra
 
-LABEL org.cassandra.buildenv=stretch
+LABEL org.cassandra.buildenv=stretch 
 
 VOLUME ${DEB_DIST_DIR}
 
